@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/npawa/Downloads/spring-core-6.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/npawa/Downloads/spring-jcl-6.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/npawa/Downloads/spring-aop-6.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/npawa/Downloads/spring-expression-6.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/npawa/Downloads/spring-beans-6.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/npawa/Downloads/spring-context-6.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/npawa/Downloads/spring-context-support-6.2.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

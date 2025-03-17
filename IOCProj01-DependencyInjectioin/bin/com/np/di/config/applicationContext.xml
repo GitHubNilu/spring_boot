@@ -7,8 +7,15 @@
     <!-- dependent class obj -->
     <bean id="ltime" class="java.time.LocalTime" factory-method="now"/>
     
+    <bean id="ldate" class="java.time.LocalDate"  factory-method="now" />
+    
     <!-- target class obj -->
     <bean id="wmg" class="com.np.di.task.WishMessageGenerator">
       <property name="time" ref="ltime" />
+      <property name="date" ref="ldate" />
+    </bean>
+    
+     <bean id="wsm" class="com.np.di.task.WishSeasonMessage">
+      <property name="date" ref="ldate" />
     </bean>
 </beans>
