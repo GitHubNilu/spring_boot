@@ -5,11 +5,10 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
-    <bean id="ltime" class="java.time.LocalTime" factory-method="now" />
+    <bean id="ldate" class="java.time.LocalDate" factory-method="now" />
      
-     <bean id="wmg" class="com.nil.dp.beans.WishMessageGenerator">
-       <constructor-arg ref="ltime" />
-       <constructor-arg value="32" />
+     <bean id="sf" class="com.nil.dp.beans.SeasionFinder">
+       <property name="date" ref="ldate" />
      </bean>
 
 </beans>
